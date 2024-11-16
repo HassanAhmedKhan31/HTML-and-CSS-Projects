@@ -1,0 +1,60 @@
+
+
+
+
+
+.nav {
+    background-color:#5a9bd5;
+    display: flex;
+    border-radius: 15px;
+    
+    
+
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.nav ol li  {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.parag{
+    background-color: #5a9bd5; 
+    text-align: center; 
+    border-radius: 4px;
+}
+
+.profile{
+    background-color: #5a9bd5;
+    height: 100px;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    left: 89%;
+    bottom: 220px;
+}
+.about{
+    padding-top: 70px;
+    background-color: #5a9bd5;
+    border-radius: 7px;
+    height: 250px;
+    text-align: center;
+}
+.p{
+    margin-left: 240px;
+
+    }
+fieldset{
+    border-color: black;
+}
+p{
+    font-size:  larger;
+}
+.arrow{
+    text-align: center;
+}

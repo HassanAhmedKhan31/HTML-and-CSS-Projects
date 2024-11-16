@@ -1,0 +1,30 @@
+.border{
+    border: 1px solid black;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;    
+}
+.bord{
+    border: 1px solid black;
+    height: 30px;
+    width: 1149px;
+    border-radius: 5px;
+}
+.bor{
+    border: 1px solid black;
+    height: 30px;
+    width: 718px;
+    border-radius: 5px;
+    
+}
+.borde{
+    border: 1px solid black;
+    width: 30px;
+    border-bottom: none;
+    }
+.boor{
+    border: 1px solid black;
+    width: 30px;
+    border-top: none;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <fieldset>
+        <legend>Yours Details:</legend>
+        <label for="Name">Name:
+        <input type="text"  id="Name" >
+         </label>
+         <br>
+         <br>
+         <label for="Email">Email:
+            <input type="email"  id="Email" >
+             </label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Your Review:</legend>
+        <br>
+        <label for="option">How did you hear about us?
+        <select name="option" id="option"> 
+            <option value="option">Google</option>
+        </select>
+    </label>
+    <br>
+    <label for="Yes">Would you visit again?
+        <br>
+        <input type="radio" value="Yes" id="Yes" name="option">Yes
+    </label>
+    <label for="No">
+        
+        <input type="radio" value="No" id="No" name="option">No
+    </label>
+    <label for="Maybe">
+       
+        <input type="radio" value="Maybe" id="Maybe" name="option">Maybe
+    </label>
+    <br>
+    <br>
+    <label for="Comments">Comments:
+        <br>
+        <textarea name="Comments" id="Comments" cols="70" rows="7"></textarea>
+    </label>
+    <br>
+    <br>
+    <label for="check">
+        <input type="checkbox" name="check" id="check" value="check"> Sign me up for email updates
+    </label>
+    <br>
+    <label for="submit">
+        <input type="button" value="Submit Review" id="submit" name="submit ">
+    </label>
+    </fieldset>
+</body>
+</html>
