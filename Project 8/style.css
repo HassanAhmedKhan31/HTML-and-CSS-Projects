@@ -1,0 +1,57 @@
+
+
+
+
+
+.nav {
+    background-color:#5a9bd5;
+    display: flex;
+    border-radius: 15px;
+    
+    
+
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.nav ol li  {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.parag{
+    background-color: #5a9bd5; 
+    text-align: center; 
+    border-radius: 4px;
+}
+
+.profile{
+    background-color: #5a9bd5;
+    height: 100px;
+    width: 800px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    top: 5px;
+    
+
+}
+.about{
+    padding-top: 70px;
+    background-color: #5a9bd5;
+    border-radius: 7px;
+    height: 250px;
+    text-align: center;
+}
+fieldset{
+    border-color: black;
+}
+p{
+    font-size:  larger;
+}
+.arrow{
+    text-align: center;
+}
